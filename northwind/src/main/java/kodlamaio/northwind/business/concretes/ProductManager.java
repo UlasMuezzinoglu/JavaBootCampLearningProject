@@ -82,7 +82,7 @@ public class ProductManager implements ProductService{
 	@Override
 	public DataResult<List<Product>> getByNameAndCategory(String productName, int categoryId) {
 		return new SuccessDataResult<List<Product>>
-		(this.productDao.getByNameAndCategory(productName,categoryId),"Data listelendi");
+		(this.productDao.getByNameAndCategory(productName,categoryId),"Data listelendiiii");
 	}
 
 	@Override
